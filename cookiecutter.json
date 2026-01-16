@@ -1,31 +1,3 @@
-# NeneCppProject
-C++ Cookiecutter Template
-
-## フォルダ構成
-```txt
-{{cookiecutter.project_slug}}/
-    include/{{cookiecutter.project_slug}}/
-    src/
-        CMakeLists.txt
-        main.cpp
-    note/ (開発のためのスケジュールやTODOなど)
-        commands.md (ビルドや実行, git関連やsubtree追加などのコマンド一覧)
-    (subtree/)
-    (assets/)
-    (tests/)
-        (CMakeLists.txt)
-    (cmake/)
-        ({{cookiecutter.project_slug}}Config.cmake.in)
-    (documents/ (製品に同梱する書類))
-        (README.md)
-        (LISENCE.txt)
-    .gitignore
-    CMakeLists.txt
-```
-
-## Cookiecutterの質問項目
-### cookiecutter.json
-```json
 {
     "project_name": "NeneCppProject",
     "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') | replace('-', '_') }}",
@@ -56,4 +28,3 @@ C++ Cookiecutter Template
     "submodules/**"
   ]
 }
-```
