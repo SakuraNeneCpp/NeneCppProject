@@ -143,3 +143,10 @@ git stash pop
 git tag v0.1.0
 git push --tags
 ```
+
+## その他の操作
+
+### フォルダ構成を可視化
+```sh
+tree
+```

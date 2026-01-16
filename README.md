@@ -18,7 +18,7 @@ C++ Cookiecutter Template
         ({{cookiecutter.project_slug}}Config.cmake.in)
     (documents/ (製品に同梱する書類))
         (README.md)
-        (LISENCE.txt)
+        (LICENSE.txt)
     .gitignore
     CMakeLists.txt
 ```
@@ -53,7 +53,7 @@ C++ Cookiecutter Template
     "git_config_local": ["y", "n"],
 
     "_copy_without_render": [
-    "submodules/**"
+    "subtree/**"
   ]
 }
 ```
