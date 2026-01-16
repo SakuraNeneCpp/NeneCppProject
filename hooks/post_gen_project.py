@@ -177,9 +177,9 @@ def main() -> int:
             _run(["git", "init"], cwd=root)
             if git_config_local:
                 if author.strip():
-                    _run(["git", "config", "user.name", author], cwd=root)
+                    _run(["git", "config", "--local", "user.name", author], cwd=root)
                 if email.strip():
-                    _run(["git", "config", "user.email", email], cwd=root)
+                    _run(["git", "config", "--local", "user.email", email], cwd=root)
         except FileNotFoundError:
             print("git not found; skipping git init")
         except subprocess.CalledProcessError as e:
