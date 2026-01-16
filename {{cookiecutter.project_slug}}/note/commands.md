@@ -150,3 +150,7 @@ git push --tags
 ```sh
 tree
 ```
+フォルダに含まれるファイルまで表示するなら,
+```Powershell
+tree /F
+```
