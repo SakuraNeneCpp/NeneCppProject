@@ -1,0 +1,26 @@
+
+
+
+
+
+Format ------------------------------------------------------------------------------
+
+x (A) 2016-05-20 2016-04-30  measure space for +chapelShelving @chapel due:2016-05-30
+
+x                       完了マーク
+(A)                     優先度. (A) ~ (Z)
+2016-05-20              完了日
+2016-04-30              タスクの作成日
+measure space for       タスクの説明
+    +chapelShelving     プロジェクト名
+    @chapel             コンテキスト, 場所
+    due:2016-05-30      締め切り
+
+(A) Thank Mom for the meatballs @phone
+(B) Schedule Goodwill pickup +GarageSale @phone
+Post signs around the neighborhood +GarageSale
+@GroceryStore Pies
+
+
+Reference:
+https://github.com/todotxt/todo.txt
